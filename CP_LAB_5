@@ -141,6 +141,38 @@ if(numOne % 3 == 0 && numTwo % 3 ==0){
 }
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+exercise 5
+#include<iostream>
+using namespace std;
+main()
+{
+char alpha; 
+cout << "Enter an Alphabate between c to g : ";
+cin>> alpha;
+switch(alpha){
+	case 'c':
+		cout << "That's it";
+		break;
+	case 'd':
+		cout << "That's it";
+		break;
+			case 'e':
+		cout << "That's it";
+		break;
+			case 'f':
+		cout << "That's it";
+		break;
+			case 'g':
+		cout << "That's it";
+		break;
+			default:
+		cout << "Retry";
+		break;
+		}
+
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
