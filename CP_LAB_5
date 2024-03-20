@@ -199,5 +199,22 @@ else if(op3 == "<<"){ cout << num1 <<" is Less than to "<< num2 ;}
 else{ cout <<" Retry ";}
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+#include<iostream>
+using namespace std;
+main(){
+int num;
+cout << " Enter the Amount you Spend : ";
+cin >> num;
+if(num >=1000 && num <=1900)
+{cout <<"You have get 10% Discount Now your Bill is "<< num - ((num / 100)*10);}
+else if(num >=2000 && num <=2900)
+{cout <<"You have get 20% Discount Now your Bill is "<< num - ((num / 100)*20);}
+else if(num >=3000 && num <=3900)
+{cout <<"You have get 30% Discount Now your Bill is "<< num - ((num / 100)*30);}
+else if(num >=4000 && num <=4900)
+{cout <<"You have get 40% Discount Now your Bill is "<< num - ((num / 100)*40);}
+else if(num >=5000 )
+{cout <<"You have gt 50% Discount Now your Bill is "<< num - ((num / 100)*50);}
+else{cout <<"You have Enter wrrong  ";}
+}
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
