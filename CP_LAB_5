@@ -173,7 +173,31 @@ switch(alpha){
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+exercise 6
+#include<iostream>
+using namespace std;
+main(){
+//two characters 
+string op1 ,op2;
+// two integers
+int num1 , num2;
+cout<<"Enter First Operater : ";
+cin >> op1;
+cout<<"Enter Second Operater : ";
+cin >> op2;
+cout<<"Enter First Number : ";
+cin >> num1;
+cout<<"Enter Second Number : ";
+cin >> num2;
+string op3 = op1 + op2;
+if(op3 == "=="){ cout << num1 <<" is Equal to "<< num2 ;}
+else if(op3 == "<="){ cout << num1 <<" is Less than and Equal to "<< num2 ;}
+else if(op3 == ">="){ cout << num1 <<" is Greater than and Equal to "<< num2 ;}
+else if(op3 == "!="){ cout << num1 <<" is Not Equal to "<< num2 ;}
+else if(op3 == ">>"){ cout << num1 <<" is Greater than to "<< num2 ;}
+else if(op3 == "<<"){ cout << num1 <<" is Less than to "<< num2 ;}
+else{ cout <<" Retry ";}
+}
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
