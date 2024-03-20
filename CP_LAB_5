@@ -1,3 +1,4 @@
+1
 #include <iostream>
 using namespace std;
 main(){
@@ -12,7 +13,29 @@ cout << num << " is "<< odd_even << " and "<< pos_neg << " . ";
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+2
+#include <iostream>
+using namespace std;
+main(){
+int numOne , numTwo;
+cout << "Enter First Number : ";
+cin >> numOne;
+cout << "\n Enter Second Number : ";
+cin >> numTwo;
+if(numOne > numTwo){
+	cout << numOne <<" > "<<numTwo;
+	cout << " \n Largest Number is "<<numOne;
+	cout << " \n Smaller Number is "<<numTwo;
+		}
+else if(numOne < numTwo){
+	cout << numOne <<" < "<<numTwo;
+	cout << " \n Smaller Number is "<<numOne;
+	cout << " \n Largest Number is "<<numTwo;
+}
+else{
+	cout << numOne <<" = "<<numTwo;
+}
+}
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
