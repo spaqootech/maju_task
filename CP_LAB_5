@@ -37,6 +37,37 @@ else{
 }
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+3
+#include <iostream>
+using namespace std;
+main(){
+int numOne , numTwo;
+char op; // for operator which user inputs
+cout << "Enter First Number : ";
+cin >> numOne;
+cout << "Enter Operator : ";
+cin >> op;
+cout << "Enter Second Number : ";
+cin >> numTwo;
+//Switch statement for operation
+switch(op){
+	case'+':
+		cout << numOne<<" + "<<numTwo<<" = "<<numOne + numTwo;
+		break;
+	case'-':
+		cout << numOne<<" - "<<numTwo<<" = "<<numOne - numTwo;
+		break;
+	case'*':
+		cout << numOne<<" * "<<numTwo<<" = "<<numOne * numTwo;
+		break;
+	case'/':
+		cout << numOne<<" / "<<numTwo<<" = "<<numOne / numTwo;
+		break;
+	default:
+		cout <<"Cannot Calculate"<<numOne <<" , "<< numTwo;
+		break;
+}
+}
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
