@@ -103,7 +103,26 @@ else
 cout <<"  Incorrect Value"<< endl;
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+exercise 3
+#include<iostream>
+using namespace std;
+main()
+{
+int myAge , frndAge;
+cout<<"\n Enter Your Age : ";
+cin>>myAge;
+cout<<"\n Enter Friend Age : ";
+cin>>frndAge;
+if(myAge > frndAge){
+	cout<<myAge <<" > "<<frndAge<<" My Age is Greater than my Friends Age";
+}
+else if(myAge < frndAge){
+	cout<<myAge <<" < "<<frndAge<<" My Friend Age is Greater than my Age";
+}
+else{
+	cout<<myAge <<" = "<<frndAge<<" My Age is Equal to my Friends Age";
+}
+}
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
